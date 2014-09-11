@@ -4,11 +4,9 @@
 		<ul>
 			<li><a href="#">Services</a></li>
 			<li><a href="#">Leadership</a></li>
-			<li><a href="#">Locations</a></li>
 		</ul>
 		<ul>
 			<li><a href="#">News</a></li>
-			<li><a href="#">Links</a></li>
 			<li><a href="#">Contact Us</a></li>
 		</ul>
 	</div>

@@ -26,7 +26,6 @@
 		                <li><a href="/onbelay/leadership">Command</a></li>
 		            </ul> -->
 		        </li>
-		        <li><a class="main-nav" href="/onbelay/locations">Locations</a></li>
 		        <li><a class="main-nav" href="/onbelay/news">News</a></li>
 		        <li><a class="main-nav" href="/onbelay/contact">Contact Us</a></li>
 		    </ul>
