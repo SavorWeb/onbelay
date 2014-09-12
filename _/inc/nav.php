@@ -13,18 +13,13 @@
 		            <ul class="sub-nav">
 		                <li><a href="/onbelay/services#investigations">Investigative</a></li>
 		                <li><a href="/onbelay/services#security-consulting">Security Consulting</a></li>
-		                <li><a href="/onbelay/services#cyber">Cyber</a></li>
+		                <li><a href="/onbelay/services#tactical-training">Tactical Training</a></li>
 		                <li><a href="/onbelay/services#executive-protection">Executive Protection</a></li>
 		                <li><a href="/onbelay/services#undercover-investigations">Undercover Investigations</a></li>
 		            </ul>
 		        </li>
 		        <li>
 		            <a class="main-nav" href="/onbelay/leadership" aria-haspopup="true">Leadership</a>
-		            <!-- <ul class="sub-nav">
-		                <li><a href="/onbelay/leadership">People</a></li>
-		                <li><a href="/onbelay/leadership">Leading</a></li>
-		                <li><a href="/onbelay/leadership">Command</a></li>
-		            </ul> -->
 		        </li>
 		        <li><a class="main-nav" href="/onbelay/news">News</a></li>
 		        <li><a class="main-nav" href="/onbelay/contact">Contact Us</a></li>
@@ -33,5 +28,4 @@
 	</div>
 </header>
 <div class="shim"></div>
-<!-- <div class="curve"></div> -->
 </div>

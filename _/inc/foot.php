@@ -2,12 +2,12 @@
 	<div class="row">
 	<div class="colspan12-4 colspan6-2 colspan2-1 as-grid">
 		<ul>
-			<li><a href="#">Services</a></li>
-			<li><a href="#">Leadership</a></li>
+			<li><a href="/onbelay/services">Services</a></li>
+			<li><a href="/onbelay/leadership">Leadership</a></li>
 		</ul>
 		<ul>
-			<li><a href="#">News</a></li>
-			<li><a href="#">Contact Us</a></li>
+			<li><a href="/onbelay/news">News</a></li>
+			<li><a href="/onbelay/contact">Contact Us</a></li>
 		</ul>
 	</div>
 	<div class="colspan12-8 colspan6-4 colaspn2-2 as-grid signup-boxes">
@@ -16,8 +16,12 @@
 		</div>
 		<div class="signup-box orange-box">
 			<div class="shell">
-				<input type="text" placeholder="E-MAIL">
-				<button>Submit</button>
+<form action="http://savorweb.createsend.com/t/j/s/nykiut/" method="post">
+<!-- 
+        <label for="fieldEmail">Email</label><br /> -->
+        <input id="fieldEmail" name="cm-nykiut-nykiut" type="email" required />
+        <button type="submit">Subscribe</button>
+</form>
 			</div>
 		</div>
 	</div>

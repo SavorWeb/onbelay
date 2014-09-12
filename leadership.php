@@ -11,14 +11,14 @@
 <div class="slide-wrap">
 	<div class="headline-wrap">
 		<div class="center">
-		<h1 class="hero-headline">
-			OnBelay Security Solutions provides effective and comprehensive solutions for today’s most complex security problems.
+		<h1 id="hero" class="editable hero-headline">
+			Get to know our team of seasoned security experts, they may surprise you.
 		</h1>
 		</div>
 	</div>
 	<div id='slider' class='swipe'>
 	  <div id="slider-pictures" class='swipe-wrap editable'>
-	    <div class="repeatable"><img src="media/photos/handshake.jpg" alt=""></div>
+	    <div><img id="hero-image" class="editable" src="media/photos/handshake.jpg" alt=""></div>
 	  </div>
 	</div>
 </div>

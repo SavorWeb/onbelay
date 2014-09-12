@@ -11,7 +11,7 @@ $navicon-color: $pos;
 
 // Use SASS globbing to import all _.scss files in the module folder.
 // These should be independent modules that follow the BEM/SMACSS way
-@import "modules/*"; 
+// @import "modules/*"; 
 
 
 
@@ -94,6 +94,7 @@ a {
 
 .top-wrap {
 	position: relative;
+	clear: both;
 }
 
 .shim {
@@ -195,7 +196,7 @@ a {
 		}
 	}
 	input {
-		width: 75%;
+		width: 70%;
 		border-radius: 4px 0 0 4px;
 		background-color: #fff;
 	}
@@ -206,11 +207,16 @@ a {
 		color: #fff;
 		font-size: 12px;
 		padding: 0 10px;
+		border: none;
 	}
 	input, button {
 		height: 31px;
 		float: left;
 	}
+}
+
+.clear {
+	@extend .clearfix;
 }
 
 // .curve {
@@ -499,6 +505,8 @@ section.row {
 
 .slide-wrap {
 	position: relative;
+	margin-top: -50px;
+	clear: both;
 }
 
 .headline-wrap {

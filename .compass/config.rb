@@ -9,13 +9,13 @@ relative_assets = true
 
 # Important! change the paths below to match your project setup
 
-css_dir = "public/styles" # update to the path of your css files.
+css_dir = "_/css" # update to the path of your css files.
 
-sass_dir = "public/styles/sass" # update to the path of your sass files.
+sass_dir = "_/css" # update to the path of your sass files.
 
-images_dir = "public/images" # update to the path of your image files.
+images_dir = "_/img" # update to the path of your image files.
 
-javascripts_dir = "public/scripts" # update to the path of your script files.
+javascripts_dir = "_/js" # update to the path of your script files.
 
 line_comments = false
 
