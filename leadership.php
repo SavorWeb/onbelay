@@ -11,9 +11,7 @@
 <div class="slide-wrap">
 	<div class="headline-wrap">
 		<div class="center">
-		<h1 id="hero" class="editable hero-headline">
-			Get to know our team of seasoned security experts, they may surprise you.
-		</h1>
+		<h1 id="hero" class="editable hero-headline">We provide leadership to your security issues, thereby maximizing the efforts of others towards a common goal.</h1>
 		</div>
 	</div>
 	<div id='slider' class='swipe'>

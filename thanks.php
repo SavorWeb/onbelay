@@ -1,6 +1,6 @@
 <?php include("_/inc/head.php"); ?>
 
-		<title>Onbelay | Thanks</title>
+		<title>OnBelay | Thanks</title>
 		<meta name="description" content="..." />
 		<meta name="keywords" content="..." />
 

@@ -720,6 +720,10 @@ article figure img {
   margin-top: 40px;
 }
 
+.address {
+  margin-bottom: 20px;
+}
+
 /* ::Import styles */
 /* ------------------------------------------------------------ */
 .font-body, body {

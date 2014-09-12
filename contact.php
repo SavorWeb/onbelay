@@ -1,6 +1,6 @@
 <?php include("_/inc/head.php"); ?>
 
-		<title>Onbelay | Services</title>
+		<title>OnBelay | Services</title>
 		<meta name="description" content="..." />
 		<meta name="keywords" content="..." />
 
@@ -11,7 +11,7 @@
 <div class="slide-wrap">
 	<div class="headline-wrap">
 		<div class="center">
-		<h1 id="hero" class="editable hero-headline">Get in touch with our trained professionals, we are here for you anytime!</h1>
+		<h1 id="hero" class="editable hero-headline">Contact OnBelay Security Solutions for a timely and effective response to your security needs.</h1>
 		</div>
 	</div>
 

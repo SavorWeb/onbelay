@@ -2,12 +2,12 @@
 	<div class="row">
 	<div class="colspan12-4 colspan6-2 colspan2-1 as-grid">
 		<ul>
-			<li><a href="/onbelay/services">Services</a></li>
-			<li><a href="/onbelay/leadership">Leadership</a></li>
+			<li><a href="/services">Services</a></li>
+			<li><a href="/leadership">Leadership</a></li>
 		</ul>
 		<ul>
-			<li><a href="/onbelay/news">News</a></li>
-			<li><a href="/onbelay/contact">Contact Us</a></li>
+			<li><a href="/news">News</a></li>
+			<li><a href="/contact">Contact Us</a></li>
 		</ul>
 	</div>
 	<div class="colspan12-8 colspan6-4 colaspn2-2 as-grid signup-boxes">

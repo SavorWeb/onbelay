@@ -11,9 +11,7 @@
 <div class="slide-wrap">
 	<div class="headline-wrap">
 		<div class="center">
-		<h1 id="hero" class="hero-headline editable">
-			Here are some Amazingly Secure Services from Onbelay Security Solutions
-		</h1>
+		<h1 id="hero" class="hero-headline editable">Justice is blind, but OnBelay Security Solutions opens your eyes to the truth.</h1>
 		</div>
 	</div>
 	<div id='slider' class='swipe'>
