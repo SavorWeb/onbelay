@@ -1,6 +1,6 @@
 <div class="pagefoot">
 	<div class="row">
-	<div class="colspan12-4 colspan6-2 colspan2-1 as-grid">
+	<div id="footer-links" class="editable colspan12-4 colspan6-2 colspan2-1 as-grid">
 		<ul>
 			<li><a href="/services">Services</a></li>
 			<li><a href="/leadership">Leadership</a></li>
@@ -12,7 +12,7 @@
 	</div>
 	<div class="colspan12-8 colspan6-4 colaspn2-2 as-grid signup-boxes">
 		<div class="signup-box grey-box">
-			<p class="shell">Signup to get OnBelay news and update emailed to you.</p>
+			<p id="signup-words" class="shell editable">Signup to get OnBelay news and update emailed to you.</p>
 		</div>
 		<div class="signup-box orange-box">
 			<div class="shell">
@@ -69,48 +69,53 @@
 	Available for use under the MIT License
 */
 
+			    // Don't execute if we're in the Live Editor
+    if ( window.isCMS ) {
 
-
-;(function( $, window, document, undefined )
-{
-	$.fn.doubleTapToGo = function( params )
-	{
-		if( !( 'ontouchstart' in window ) &&
-			!navigator.msMaxTouchPoints &&
-			!navigator.userAgent.toLowerCase().match( /windows phone os 7/i ) ) return false;
-
-		this.each( function()
+    } else {
+		;(function( $, window, document, undefined )
 		{
-			var curItem = false;
-
-			$( this ).on( 'click', function( e )
+			$.fn.doubleTapToGo = function( params )
 			{
-				var item = $( this );
-				if( item[ 0 ] != curItem[ 0 ] )
+				if( !( 'ontouchstart' in window ) &&
+					!navigator.msMaxTouchPoints &&
+					!navigator.userAgent.toLowerCase().match( /windows phone os 7/i ) ) return false;
+
+				this.each( function()
 				{
-					e.preventDefault();
-					curItem = item;
-				}
-			});
+					var curItem = false;
 
-			$( document ).on( 'click touchstart MSPointerDown', function( e )
-			{
-				var resetItem = true,
-					parents	  = $( e.target ).parents();
+					$( this ).on( 'click', function( e )
+					{
+						var item = $( this );
+						if( item[ 0 ] != curItem[ 0 ] )
+						{
+							e.preventDefault();
+							curItem = item;
+						}
+					});
 
-				for( var i = 0; i < parents.length; i++ )
-					if( parents[ i ] == curItem[ 0 ] )
-						resetItem = false;
+					$( document ).on( 'click touchstart MSPointerDown', function( e )
+					{
+						var resetItem = true,
+							parents	  = $( e.target ).parents();
 
-				if( resetItem )
-					curItem = false;
-			});
-		});
-		return this;
-	};
-})( jQuery, window, document );
+						for( var i = 0; i < parents.length; i++ )
+							if( parents[ i ] == curItem[ 0 ] )
+								resetItem = false;
 
-// $( '#nav li:has(ul)' ).doubleTapToGo();
+						if( resetItem )
+							curItem = false;
+					});
+				});
+				return this;
+			};
+		})( jQuery, window, document );
+
+		// $( '#nav li:has(ul)' ).doubleTapToGo();
+    }
+
+
 </script>
 
 

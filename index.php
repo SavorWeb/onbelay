@@ -20,7 +20,7 @@
 	<div id='slider' class='swipe'>
 	  <div id="slider-pictures" class='swipe-wrap editable-gallery'>
 	    <div class="repeatable"><img src="_/img/sheild2.jpg" alt=""></div>
-	    <div class="repeatable"><img src="media/photos/dna.jpg" alt=""></div>
+	    <div class="repeatable"><img src="media/photos/meninblack.jpg" alt=""></div>
 	    <div class="repeatable"><img src="media/photos/rush.jpg" alt=""></div>
 	    <div class="repeatable"><img src="media/photos/handshake.jpg" alt=""></div>
 	    <div class="repeatable"><img src="media/photos/camera.jpg" alt=""></div>

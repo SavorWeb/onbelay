@@ -13,12 +13,12 @@
 		        </li>
 		        <li>
 		            <a class="main-nav" href="/services" aria-haspopup="true">Services</a>
-		            <ul class="sub-nav">
-		                <li><a href="/services#investigations">Investigative</a></li>
-		                <li><a href="/services#security-consulting">Security Consulting</a></li>
-		                <li><a href="/services#tactical-training">Tactical Training</a></li>
-		                <li><a href="/services#executive-protection">Executive Protection</a></li>
-		                <li><a href="/services#undercover-investigations">Undercover Investigations</a></li>
+		            <ul id="services-sub-nav" class="editable sub-nav">
+		                <li class="repeatable"><a href="/services#investigations">Investigative</a></li>
+		                <li class="repeatable"><a href="/services#security-consulting">Security Consulting</a></li>
+		                <li class="repeatable"><a href="/services#tactical-training">Tactical Training</a></li>
+		                <li class="repeatable"><a href="/services#executive-protection">Executive Protection</a></li>
+		                <li class="repeatable"><a href="/services#undercover-investigations">Undercover Investigations</a></li>
 		            </ul>
 		        </li>
 		        <li>

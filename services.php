@@ -15,8 +15,8 @@
 		</div>
 	</div>
 	<div id='slider' class='swipe'>
-	  <div id="slider-pictures" class='swipe-wrap editable'>
-	    <div><img id="hero-image" class="editable" src="media/photos/dna.jpg" alt=""></div>
+	  <div id="slider-pictures" class='swipe-wrap'>
+	    <div><img id="hero-image" class="editable" src="media/photos/meninblack.jpg" alt=""></div>
 	  </div>
 	</div>
 </div>
